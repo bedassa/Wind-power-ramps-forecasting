@@ -14,7 +14,7 @@ In this github, the forecast of wind power production are demonstrated for the B
 However, these four steps are not required to run the neural network in this folder. 
 
 To run the neural network in this folder. 
-## 1\. This 
+##  1\. This 
 1\. step 1
   * run file1
   * run file 2
