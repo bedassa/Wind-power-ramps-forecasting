@@ -1,4 +1,4 @@
-# Wind-Power-Ramps-Forecasting
+# Enhancing Wind-Power-Ramps-Forecasting
 
 ![Badge](https://img.shields.io/badge/Enhancing-forecsting-informational) 
 
