@@ -1,30 +1,16 @@
-# Wind-Power-Ramps-Forecasting-GFS
+# Enhancing Wind-Power-Ramps-Forecasting
+
+![Badge](https://img.shields.io/badge/Enhancing-forecsting-informational) 
 
 
-![Badge](https://img.shields.io/badge/Enhance-Wind Forecasting and Modeling-informational)  
+Neural network is useful to capture the nono-linear relationship between input and output data. In this script, I use different architecture of neural network to generate wind power production for the Belgian wind farm fleets by using the climate output ERA5 and GFS data. The wind speed and other meteorological parameters are obtained from ERA5 and GFS. Prior to use the neural network to generate the forecast, some of the preprocesses steps hat have been used are:
 
-
-In this github, the forecast of wind power production are demonstrated for the Belgian aggregated offshore wind power production. Some of the common types of neural network architecture are used. To generate wind power forecast, the wind speed forecast is obtained from Global Forecast System (GFS). Prior to use the neural network to generate the forecast, some preprocesses are performed if you want to use different data sources by using the aggregated wind power and the GFS wind speed values which are:
-
-    1.  Spatial correlation 
+- Spatial correlation between wind power and gridded climate data
++ Check data imbalance between training and validation which is very common in classiication but a little not straightforward in numerical data
+* Take precautions in data splitting to avoid data leakage of temporal data
+* consider benchmark model, for instance empirical convert wind speed into wind power using power curve 
     
-   Identify the GFS grids that have high correlation with wind speed
-   
-    2. Data imbalance  
-    
-    3. Develop Power Curve
-    
-    4. Generate GFS Wind Power 
-    
-However, these four steps are not required to run the neural network in this folder. 
-
-To run the neural network in this folder. 
-##  1\. This 
-1\. step 1
-  * run file1
-  * run file 2
- ## 2\. load packages
- 
- ### 3\. model development
+# Model development 
+ MLP_GFS and MLP_ERA5 use the ERA5 and GFS input data, respectively to model wind power for the belgian offshore wind power. Before writing the model architecture it is important to prepare data and load all necessary pacakges. Once all the pacakges and data are ready, begin with simple architecture of the model, and then try to add more layers to see how is the performance of the model will be improved. Also, Look into the learning curve of training and validation curve since it provides valuable informtion either the model is overfittining, optimum or underfitting. 
  
   
