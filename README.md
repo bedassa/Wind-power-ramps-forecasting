@@ -15,9 +15,9 @@ Neural network is useful to capture the nono-linear relationship between input a
 # Source of dat
 All the datasets are available in public domain. The links are:
 
-    - Wind power generation: https://www.elia.be/en/grid-data/power-generation/wind-power-generation
-    + ERA5: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form
-    * GFS: https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast
+- Wind power generation: https://www.elia.be/en/grid-data/power-generation/wind-power-generation
++ ERA5: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form
+* GFS: https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast
 
 
 # Model development 
