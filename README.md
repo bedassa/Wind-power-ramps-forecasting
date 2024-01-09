@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Enhancing-forecsting-informational) 
 
-# Enhancing Wind-Power-Ramps-Forecasting 
+
 
 
 Neural network is useful to capture the nono-linear relationship between input and output data. In this script, I use different architecture of neural network to generate wind power production for the Belgian wind farm fleets by using the climate output ERA5 and GFS data. The wind speed and other meteorological parameters are obtained from ERA5 and GFS. Prior to use the neural network to generate the forecast, some of the preprocesses steps hat have been used are:
@@ -14,9 +14,10 @@ Neural network is useful to capture the nono-linear relationship between input a
 
 # Source of dat
 The datasets are available in public domain. The links are:
-    Wind power generation: https://www.elia.be/en/grid-data/power-generation/wind-power-generation
-    ERA5: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form
-    GFS: https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast
+
+    - Wind power generation: https://www.elia.be/en/grid-data/power-generation/wind-power-generation
+    + ERA5: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form
+    + GFS: https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast
 
 
 # Model development 
