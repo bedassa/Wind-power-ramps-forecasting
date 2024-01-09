@@ -12,7 +12,7 @@ Neural network is useful to capture the nono-linear relationship between input a
 * Take precautions in data splitting to avoid data leakage of temporal data
 * consider benchmark model, for instance empirical convert wind speed into wind power using power curve
 
-# Source of dat
+# Source of data
 All the datasets are available in public domain. The links are:
 
 - Wind power generation: https://www.elia.be/en/grid-data/power-generation/wind-power-generation
